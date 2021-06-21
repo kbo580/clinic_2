@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.scss">
+    <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
+    <link rel="icon" href="images/heart_icon@2x.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>ハートこころのクリニック</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="inner">
+        
+        <!-- info_wrapperここから -->
+        <div class="info_wrapper">
+
+          <!-- logo_wrapperここから -->
+          <div class="logo_wrapper">
+            <div class="logo_image_wrapper">
+              <a href="index.html"><img src="images/logo.png" alt=""></a>
+            </div>
+    
+            <p>地下鉄※※線◯◯駅から北へ徒歩１分</p>
+          </div>
+          <!-- logo_wrapperここまで -->
+
+          <!-- メニューボタンここから -->
+          <div class="menu_btn tb_menu_btn show">MENU</div>
+          <div class="menu_btn sp_menu_btn show">MENU</div>
+          <!-- メニューボタンここまで -->
+          
+          <!-- reservation_containerここから -->
+          <div class="reservation_container">
+            <div class="phone_number">
+              <img src="images/phone_number.png" alt="">
+            </div>
+        
+            <!-- reservation_wrapperここから -->
+            <div class="reservation_wrapper">
+              <a href="form.html" class="btn reservation_btn">WEB予約</a>
+              <span>WEB予約は24時間受付中です。</span>
+            </div>
+            <!-- reservation_wrapperここまで -->
+    
+          </div>
+          <!-- reservation_containerここまで -->
+
+        </div>
+        <!-- info_wrapperここまで -->
+
+        <!-- sp_fixed_navここから -->
+        <div id="sp_fixed_nav">
+          <div class="sp_fix_nav">
+            <div class="logo_image_wrapper">
+              <a href="index.html"><img src="images/logo.png" alt=""></a>
+            </div>
+      
+            <div class="menu_btn sp_menu_btn fixed_burger show">MENU</div>
+          </div>
+
+        </div>
+        <!-- sp_fixed_navここまで -->
+
+        <!--   モーダルここから -->
+        <div id="modal">
+          <div class="modal-wrapper">
+            <span id="close"><i class="fas fa-times"></i>CLOSE</span>
+            <nav id="burger_menu">
+              <!-- <span id="close"><i class="fas fa-times"></i></span> -->
+      
+              <!-- menu_wrapperここから -->
+              <div class="menu_wrapper">
+                <ul class="menu_items">
+                  <li class="menu_title">トップページメニュー</li>
+                  <li><a href="index.html">Top</a></li>
+                  <li><a href="index.html#mv">クリニックからのお知らせ</a></li>
+                  <li><a href="index.html#contents">診察内容</a></li>
+                  <li><a href="index.html#features">当クリニックの４つの特徴</a></li>
+                  <li><a href="index.html#about">当クリニック紹介</a></li>
+                </ul>  
+              </div>
+              <!-- menu_wrapperここまで -->
+        
+              <!-- menu_wrapperここから -->
+              <div class="menu_wrapper">
+                <ul class="menu_items">
+                  <li class="menu_title">メニュー</li>
+                  <li><a href="visitor.html">初めてお越しの方へ</a></li>
+                  <li><a href="exam.html">診察のご案内</a></li>
+                  <li><a href="about_clink.html">当クリニックについて</a></li>
+                  <li><a href="faq.html">よくあるご質問</a></li>
+                  <li><a href="access.html">アクセス</a></li>
+                </ul>  
+              </div>
+              <!-- menu_wrapperここまで -->
+        
+            </nav>
+          </div>  
+        </div>
+        <!--   モーダルここまで -->
+
+        <!--  ヘッダーの小さい方のナビここから -->
+        <nav class="header_sub_nav_wrapper">
+          <ul>
+            <li><a href="index.html">Top</a></li>
+            <li><a href="index.html#mv">クリニックからのお知らせ</a></li>
+            <li><a href="index.html#contents">診察内容</a></li>
+            <li><a href="index.html#features">当クリニックの４つの特徴</a></li>
+            <li><a href="index.html#about">当クリニック紹介</a></li>
+          </ul>
+        </nav>
+        <!--  ヘッダーの小さい方のナビここまで -->
+      </div>
+      <!-- inner -->
+
+      <!--  ヘッダーナビここから -->
+      <nav class="header_nav_wrapper">
+        <ul>
+          <li><a href="visitor.html">初めてお越しの方へ</a></li>
+          <li><a href="exam.html">診察のご案内</a></li>
+          <li><a href="about_clink.html">当クリニックについて</a></li>
+          <li><a href="faq.html">よくあるご質問</a></li>
+          <li><a href="access.html">アクセス</a></li>
+        </ul>
+      </nav>
+      <!--  ヘッダーナビここまで -->
+    </header>
+
+    <main>
+      <div class="mv visitor_mv">
+        <h1>初めてお越しの方へ</h1>
+      </div>
+
+      <div class="lower_page">
+
+        <!-- main_wrapperここから -->
+        <div class="inner main_wrapper">
+
+          <article>
+            <section>
+
+              <h2 class="section_heading heading">初診の流れ</h2> 
+    
+              <!-- 手順の大枠ここから -->
+              <ul class="flow_list">
+    
+                <!-- 手順ここから -->
+                <li class="list_item">
+                  <div class="flow_list_title">1.ご予約</div>
+    
+                  <!-- flow_list_contentここから -->
+                  <div class="flow_list_content">
+
+                    <!-- reservationここから -->
+                    <div class="reservation">
+                      <ul class="phone">
+                        <li><i class="fas fa-phone-alt"></i>お電話によるご予約はこちら</li>
+                        <li class="number">052-123-4567</li>
+                        <li class="open_time">平日：午前9:00〜13:00/15:00〜19:00</li>
+                        <li class="open_time">平日：午前9:00〜14:00</li>
+                        <li class="open_time">休診日：土曜午後・日曜・祝日</li>
+                      </ul>
+  
+                      <ul class="web">
+                        <li><i class="fas fa-desktop"></i>Webによるご予約はこちら</li>
+                        <li><div class="btn reservation_btn">
+                          <a href="form.html">WEB予約</a>
+                        </div></li>
+                        <li>WEB予約は24時間受付中です。</li>
+                      </ul>
+                      
+                    </div>
+                    <!-- reservationここまで -->
+  
+                  </div>
+                  <!-- flow_list_contentここまで -->
+    
+                  <div class="flow_list_marker"></div>
+                </li>
+                <!-- 手順ここまで -->
+    
+                <!-- 手順2ここから -->
+                <li class="list_item">
+                  <div class="flow_list_title">2.ご来院</div>
+    
+                  <div class="flow_list_content">
+                    <p>2-1.ご来院(アクセスは<a href="access.html" class="access_of_link">こちら</a>)</p>
+                    <p>※患者様ご自身でご用意いただくもの</p>
+                    <ul class="list">
+                      <li><i class="fas fa-check"></i>保険証</li>
+                      <li><i class="fas fa-check"></i>お薬手帳</li>
+                      <li><i class="fas fa-check"></i>紹介状(あれば)</li>
+                    </ul>
+                    <p>2-2.受付後問診票を記入</p>
+    
+                  </div>
+    
+                  <div class="flow_list_marker"></div>
+                </li>
+                <!-- 手順2ここまで -->
+    
+                <!-- 手順3ここから -->
+                <li class="list_item">
+                  <div class="flow_list_title">3.診察</div>
+                  <div class="flow_list_content">当クリニックでは患者様のプライバシーを最大限守るよう努力しております。<br>答えられる範囲でお悩み、気になっていることなど些細な事でも構いませんのでお話しください。<br>お悩みを解決できる<span class="hint">ヒント</span>になるかもしれません。</div>
+                  <div class="flow_list_marker"></div>
+                </li>
+                <!-- 手順3ここまで -->
+    
+                <!-- 手順4ここから -->
+                <li class="list_item">
+                  <div class="flow_list_title">4.お会計</div>
+    
+                  <div class="flow_list_content">
+                    <div class="text">
+                      次回診察がある方はご予約をとっていただきます。<br>お会計時に領収書や各種作成書類、またお薬のある方は処方箋をお渡しいたします。
+                    </div> 
+    
+                    <div class="fee">
+                      <p></i>診察費用の目安</p>
+                      
+                      <table class="price_table" border="1">
+                        <thead>
+                          <tr><th class="price_table_title"></th><th>初診(3割負担)</th><th>再診(3割負担)</th></tr>
+                        </thead>
+                        <tbody>
+                          <tr><td class="price_table_title">診察費用</td><td>3,500円〜6,500円程度</td><td>1,500円〜3,000円程度</td></tr>
+                        </tbody>
+                      </table>
+                    </div>
+    
+    
+                    <div class="fee">
+                      <p></i>診断書作成の作成日数の目安と費用</p>
+                      
+                      <table class="price_table" border="1">
+                        <thead>
+                          <tr><th class="price_table_title">作成書類</th><th>作成費用</th></tr>
+                        </thead>
+                        <tbody>
+                          <tr><td class="price_table_title">普通診断書</td><td>約1,500円</td></tr>
+                          <tr><td class="price_table_title">自立支援医療申請書用診断書</td><td>約3,000円</td></tr>
+                          <tr><td class="price_table_title">障害年金申請用診断</td><td>約5,000円</td></tr>
+                          <tr><td class="price_table_title">傷病手当金意見書</td><td>約500円</td></tr>
+                          <tr><td class="price_table_title">主治医意見書</td><td>約3,000円</td></tr>
+                          <tr><td class="price_table_title">成年後見人制度用診断書</td><td>約5,000円</td></tr>
+                        </tbody>
+                      </table>
+
+                      <div class="fee_attention">※その他の書類の詳細はスタッフまでお尋ねください。</div>
+                    </div>
+    
+                  </div>
+                  
+                  <div class="flow_list_marker"></div>
+                </li>
+                <!-- 手順4ここまで -->
+              </ul>
+              <!-- 手順の大枠ここまで -->
+            </section>
+
+          </article>
+
+          <!-- asideここから -->
+          <aside>
+            <!-- menu_wrapperここから -->
+            <ul class="menu_wrapper">
+              <li class="menu_title">トップページメニュー</li>
+              <li><a href="index.html" class="round"><span><i class="fas fa-caret-right"></i></span>Topへ</a></li>
+              <li><a href="index.html#top_mv" class="round"><span><i class="fas fa-caret-right"></i></span>クリニックからのお知らせ</a></li>
+              <li><a href="index.html#contents" class="round"><span><i class="fas fa-caret-right"></i></span>診察内容</a></li>
+              <li><a href="index.html#features" class="round"><span><i class="fas fa-caret-right"></i></span>当クリニックの４つの特徴</a></li>
+              <li><a href="index.html#about" class="round"><span><i class="fas fa-caret-right"></i></span>当クリニック紹介</a></li>
+            </ul>
+            <!-- menu_wrapperここまで -->
+
+            <!-- menu_wrapperここから -->
+            <ul class="menu_wrapper">
+              <li class="menu_title">メニュー</li>
+              <li><a href="visitor.html" class="round"><span><i class="fas fa-caret-right"></i></span>初めてお越しの方へ</a></li>
+              <li><a href="exam.html" class="round"><span><i class="fas fa-caret-right"></i></span>診察のご案内</a></li>
+              <li><a href="about_clink.html" class="round"><span><i class="fas fa-caret-right"></i></span>当クリニックについて</a></li>
+              <li><a href="faq.html" class="round"><span><i class="fas fa-caret-right"></i></span>よくあるご質問</a></li>
+              <li><a href="access.html" class="round"><span><i class="fas fa-caret-right"></i></span>アクセス</a></li>
+            </ul>
+          <!-- menu_wrapperここまで -->
+      
+          </aside>
+          <!-- asideここまで -->
+
+        </div>
+        <!-- main_wrapperここまで -->
+        
+      </div>
+    </main>
+
+    <footer>
+      <div class="inner">
+        <div class="info_wrapper">
+          <div class="logo_wrapper">
+            <div class="logo_image_wrapper">
+              <a href="#">
+                <img src="images/logo.png" alt="">
+
+              </a>
+            </div>
+    
+            <p>地下鉄※※線◯◯駅から北へ徒歩１分</p>
+          </div>
+          <!-- logo_wrapper -->
+          
+          <div class="reservation_container">
+            <div class="phone_number">
+              <img src="images/phone_number.png" alt="">
+            </div>
+        
+            <div class="reservation_wrapper">
+              <div class="btn reservation_btn">
+                <a href="form.html">WEB予約</a>
+              </div>
+              <span>WEB予約は24時間受付中です。</span>
+            </div>
+            <!-- reservation_wrapper -->
+            
+          </div>
+          <!-- reservation_container -->
+          
+        </div>
+        <!-- info_wrapper -->
+
+        <p class="footer_menu_title">トップページメニュー</p>
+        <ul class="footer_menu">
+          <li><a href="#" class="round"><span><i class="fas fa-caret-right"></i></span>Topへ</a></li>
+          <li><a href="#top_mv" class="round"><span><i class="fas fa-caret-right"></i></span>クリニックからのお知らせ</a></li>
+          <li><a href="#contents" class="round"><span><i class="fas fa-caret-right"></i></span>診察内容</a></li>
+          <li><a href="#features" class="round"><span><i class="fas fa-caret-right"></i></span>当クリニックの４つの特徴</a></li>
+          <li><a href="#about" class="round"><span><i class="fas fa-caret-right"></i></span>当クリニック紹介</a></li>
+        </ul>
+
+        <p class="footer_menu_title">メニュー</p>
+        <ul class="footer_menu">
+          <li><a href="visitor.html" class="round"><span><i class="fas fa-caret-right"></i></span>初めてお越しの方へ</a></li>
+          <li><a href="exam.html" class="round"><span><i class="fas fa-caret-right"></i></span>診察のご案内</a></li>
+          <li><a href="about_clink.html" class="round"><span><i class="fas fa-caret-right"></i></span>当クリニックについて</a></li>
+          <li><a href="faq.html" class="round"><span><i class="fas fa-caret-right"></i></span>よくあるご質問</a></li>
+          <li><a href="access.html" class="round"><span><i class="fas fa-caret-right"></i></span>アクセス</a></li>
+        </ul>
+
+        <p class="copy">&copyハートこころのクリニック</p>
+      </div>
+      <!-- inner -->
+      
+    </footer>
+    <!-- sp_reservation_containerここから -->
+    <div class="sp_reservation_container">
+      <div class="sp_phone_number_wrapper sp_footer">
+        <a href="#">
+          <p>お電話でのご予約</p>
+          <p><i class="fas fa-phone-alt"></i>052-123-4567</p>
+        </a>
+      </div>
+
+      <!-- sp_reservation_wrapperここから -->
+      <div class="sp_reservation_wrapper sp_footer">
+        <div class="sp_reservation_btn">
+          <a href="form.html">WEB予約</a>
+        </div>
+      </div>
+      <!-- sp_reservation_wrapperここまで -->
+
+    </div>
+    <!-- sp_reservation_containerここまで -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
