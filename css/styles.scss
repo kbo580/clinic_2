@@ -48,8 +48,7 @@ $textColor: #6d4227;
 $accentColor: #FED5D5;
 
 body {
-  // font-family:"ヒラギノ丸ゴ ProN",sans-serif;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family:"ヒラギノ丸ゴ ProN",sans-serif;
   font-size : calc(0.16em * 0.9);
   color: $textColor;
   line-height: 1.5;
@@ -592,7 +591,7 @@ footer{
   height: 100%;
   top: 0;
   right: -120%;
-  z-index: 1;
+  z-index: 2;
   transition: all 0.6s;
 	
   /* 閉じるボタン */
