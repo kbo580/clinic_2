@@ -25,16 +25,11 @@ img{
   vertical-align: bottom;
 }
 
-header,main,section,footer, div, ul, li, h1,h2,h3{
-  // background-color: rgba(0,200,100,0.1);
-  // border: 1px solid rgba(226, 226, 226, .8);
-}
 
 .inner{
   margin: 0 auto;
   width: 100%;
   max-width: 1200px;
-  // background-color: rgba(241,92,168,0.2);
   padding: 0 4%;
 }
 
@@ -53,7 +48,8 @@ $textColor: #6d4227;
 $accentColor: #FED5D5;
 
 body {
-  font-family:"ヒラギノ丸ゴ ProN",sans-serif;
+  // font-family:"ヒラギノ丸ゴ ProN",sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size : calc(0.16em * 0.9);
   color: $textColor;
   line-height: 1.5;
