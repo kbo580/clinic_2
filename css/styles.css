@@ -2037,8 +2037,19 @@ footer .copy {
   background: url(../images/access_mv.png) center/cover;
 }
 
+.access .google-map {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+}
+
 .access iframe {
-  margin-bottom: 0.08rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .access .access_detail h3 {
@@ -2046,6 +2057,7 @@ footer .copy {
   margin-bottom: 5px;
   border-bottom: 1px solid #6d4227;
   display: inline-block;
+  margin-top: 16px;
 }
 
 .access .access_detail h3 .fas {
@@ -2054,10 +2066,6 @@ footer .copy {
 
 .access .access_detail p:nth-of-type(3) {
   margin-bottom: 0.08rem;
-}
-
-.access .around_map_image {
-  margin-bottom: 16px;
 }
 
 .access .around_map_image img {
